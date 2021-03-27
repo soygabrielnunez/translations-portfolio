@@ -1,7 +1,7 @@
 <template>
-<div class="app-root">
-  <header class="p-4 shadow-md text-gray-50 text-3xl font-semibold">
-    Julio <span class="text-purple-400">Colmenares</span>
+<div class="app-root grid justify-center">
+  <header class="p-8 shadow-md text-gray-50 text-3xl font-semibold capitalize">
+    julio <span class="text-purple-400">colmenares</span>
   </header>
   <Portfolio/>
 </div>
@@ -22,8 +22,6 @@ export default defineComponent({
 <style scoped>
 .app-root {
   background-color: #021317;
-  display: grid;
   grid-template-columns: minmax(640px, 1536px);
-  justify-content: center;
 }
 </style>
