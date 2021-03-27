@@ -23,7 +23,7 @@ export default defineComponent({
 
 <style scoped>
 .app-container {
-  background-color: #021317;
+  background-color: #0d0216;
   grid-template-columns: minmax(0, 1536px);
 }
 </style>
