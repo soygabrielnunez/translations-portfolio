@@ -1,6 +1,6 @@
 <template>
 <div class="app-root grid justify-center">
-  <header class="p-8 shadow-md text-gray-50 text-3xl font-semibold capitalize">
+  <header class="p-8 text-gray-50 text-3xl font-semibold capitalize">
     julio <span class="text-purple-400">colmenares</span>
   </header>
   <Portfolio/>
