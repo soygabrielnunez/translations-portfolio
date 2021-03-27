@@ -3,7 +3,9 @@
   <header class="p-8 text-gray-50 text-3xl sm:text-5xl font-semibold capitalize">
     julio <span class="text-purple-400">colmenares</span>
   </header>
-  <Portfolio/>
+  <main>
+    <Portfolio/>
+  </main>
 </div>
 </template>
 
