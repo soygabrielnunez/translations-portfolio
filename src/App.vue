@@ -1,9 +1,7 @@
 <template>
 <div class="app-root">
-  <header class="p-4 shadow-md">
-    <h3 class="text-blue-500 text-3xl font-semibold">
-      Julio's Portfolio
-    </h3>
+  <header class="p-4 shadow-md text-gray-50 text-3xl font-semibold">
+    Julio <span class="text-purple-400">Colmenares</span>
   </header>
   <Portfolio/>
 </div>
