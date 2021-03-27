@@ -1,5 +1,5 @@
 <template>
-<div class="portfolio-root grid p-8 gap-10">
+<div class="portfolio-container grid p-8 gap-10">
   <div>
     <span class="text-5xl text-purple-400 font-extrabold tracking-widest">翻訳ポートフォリオ</span>
     <h1 class="text-4xl text-gray-50 font-semibold capitalize mt-4">translations portfolio</h1>
@@ -29,7 +29,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.portfolio-root {
+.portfolio-container {
   grid-template-rows: auto auto;
 }
 </style>
