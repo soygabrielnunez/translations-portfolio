@@ -6,74 +6,44 @@
   </div>
   <subtitle title="video games" japaneseTitle="ビデオゲーム" />
   <div class="grid justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-20 p-1 md:p-8">
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
+    <media-placeholder />
+    <media-placeholder />
+    <media-placeholder />
+    <media-placeholder />
   </div>
   <subtitle title="manga" japaneseTitle="マンガ" />
   <div class="grid justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-20 p-1 md:p-8">
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
+    <media-placeholder />
+    <media-placeholder />
+    <media-placeholder />
+    <media-placeholder />
   </div>
   <subtitle title="novels" japaneseTitle="小説" />
   <div class="grid justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-20 p-1 md:p-8">
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
+    <media-placeholder />
+    <media-placeholder />
+    <media-placeholder />
+    <media-placeholder />
   </div>
   <subtitle title="NSFW" japaneseTitle="+18 作品" />
   <div class="grid justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-20 p-1 md:p-8">
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
-    <div class="rounded-xl 100% h-96 bg-gray-50 flex justify-center items-center">
-      <span class="text-3xl text-purple-400 font-extrabold tracking-widest">近日公開</span>
-    </div>
+    <media-placeholder />
+    <media-placeholder />
+    <media-placeholder />
+    <media-placeholder />
   </div>
 </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import MediaPlaceholder from './MediaPlaceholder.vue'
 import Subtitle from './Subtitle.vue'
 export default defineComponent({
   name: 'Portfolio',
   components: {
-    Subtitle
+    Subtitle,
+    MediaPlaceholder
   }
 })
 </script>
