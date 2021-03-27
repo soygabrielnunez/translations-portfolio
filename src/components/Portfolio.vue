@@ -4,7 +4,7 @@
     <span class="text-5xl text-purple-400 font-extrabold tracking-widest">翻訳ポートフォリオ</span>
     <h1 class="text-4xl text-gray-50 font-semibold capitalize mt-4">translations portfolio</h1>
   </div>
-  <div class="grid justify-center grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-20 p-8">
+  <div class="grid justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-20 p-8">
     <div class="rounded-lg 100% h-96 bg-gray-50"></div>
     <div class="rounded-lg 100% h-96 bg-gray-50"></div>
     <div class="rounded-lg 100% h-96 bg-gray-50"></div>
