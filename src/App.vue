@@ -21,9 +21,14 @@ export default defineComponent({
 })
 </script>
 
+<style>
+body {
+  background-color: #0d0216;
+}
+</style>
+
 <style scoped>
 .app-container {
-  background-color: #0d0216;
   grid-template-columns: minmax(0, 1536px);
 }
 </style>
