@@ -1,6 +1,6 @@
 <template>
 <div class="sticky top-0 subtitle-container p-2 md:p-8">
-  <h3 class="text-xl sm:text-3xl text-purple-400 font-extrabold tracking-widest">{{japaneseText}}</h3>
+  <span class="text-xl sm:text-3xl text-purple-400 font-extrabold tracking-widest">{{japaneseText}}</span>
   <h3 class="text-xl sm:text-3xl text-gray-50 font-semibold capitalize mt-4">{{text}}</h3>
 </div>
 </template>

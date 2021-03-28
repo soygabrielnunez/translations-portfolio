@@ -1,6 +1,6 @@
 <template>
 <div>
-  <h1 class="text-center text-3xl sm:text-5xl text-purple-400 font-extrabold tracking-widest">{{japaneseText}}</h1>
+  <span class="text-center text-3xl sm:text-5xl text-purple-400 font-extrabold tracking-widest">{{japaneseText}}</span>
   <h1 class="text-center text-3xl sm:text-5xl text-gray-50 font-semibold capitalize mt-4">{{text}}</h1>
 </div>
 </template>
