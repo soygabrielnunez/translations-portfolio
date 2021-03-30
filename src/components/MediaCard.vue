@@ -13,12 +13,12 @@ import { defineComponent, computed } from 'vue'
 export default defineComponent({
   name: 'MediaCard',
   props: {
-    url: String,
+    imageUrl: String,
     year: Number,
     title: String,
   },
   setup(props) {
-    const backgroundImageStyle = computed(() => `background-image: url(${props.url})`)
+    const backgroundImageStyle = computed(() => `background-image: url(${props.imageUrl})`)
     return { backgroundImageStyle }
   }
 })
