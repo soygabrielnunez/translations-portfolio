@@ -1,10 +1,12 @@
 <template>
-<div class="transition duration-500 ease-in-out transform-gpu hover:scale-110">
+<div class="transition duration-500 ease-in-out transform-gpu hover:scale-110 cursor-pointer">
+  <a :href="infoUrl" target="_blank">
   <div class="rounded-xl h-96 bg-gray-50 flex justify-center items-center bg-cover" :style=backgroundImageStyle />
   <div class="p-2">
     <span class="text-purple-400 font-semibold">{{year}}</span>
     <h5 class="text-gray-50 font-semibold">{{title}}</h5>
   </div>
+  </a>
 </div>
 </template>
 
@@ -14,6 +16,7 @@ export default defineComponent({
   name: 'MediaCard',
   props: {
     imageUrl: String,
+    infoUrl: String,
     year: Number,
     title: String,
   },
