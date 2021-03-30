@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="transition duration-500 ease-in-out transform-gpu hover:scale-110">
   <div class="rounded-xl h-96 bg-gray-50 flex justify-center items-center bg-cover" :style=backgroundImageStyle />
   <div class="p-2">
     <span class="text-purple-400 font-semibold">{{year}}</span>
