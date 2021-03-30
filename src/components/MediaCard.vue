@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="rounded-xl h-96 bg-gray-50 flex justify-center items-center bg-cover" :style=mediaUrl />
+  <div class="rounded-xl h-96 bg-gray-50 flex justify-center items-center bg-cover" :style=backgroundImageStyle />
   <div class="p-2">
     <span class="text-purple-400 font-semibold">{{year}}</span>
     <h5 class="text-gray-50 font-semibold">{{title}}</h5>
@@ -18,8 +18,8 @@ export default defineComponent({
     title: String,
   },
   setup(props) {
-    const mediaUrl = computed(() => `background-image: url(${props.url})`)
-    return { mediaUrl }
+    const backgroundImageStyle = computed(() => `background-image: url(${props.url})`)
+    return { backgroundImageStyle }
   }
 })
 </script>
