@@ -10,11 +10,24 @@
       title="The Future Radio and the Artificial Pigeons"
     />
     <media-card
+      infoUrl="https://www.johren.games/games/eiyusenkiwwx-en/"
+      :imageUrl="eiyuSenkiWW"
+      :year="2021"
+      title="Eiyu＊Senki War Wonder"
+      adultsOnly
+    />
+    <media-card
       infoUrl="https://jastusa.com/eiyu-senki-gold-a-new-conquest/"
       :imageUrl="eiyuSenkiGold"
       :year="2021"
-      title="Eiyu*Senki Gold - A New Conquest"  
+      title="Eiyu＊Senki Gold - A New Conquest"
       adultsOnly
+    />
+    <media-card
+      infoUrl="https://riddle.nekonyansoft.com/"
+      :imageUrl="riddleJoker"
+      :year="2020"
+      title="RiddleJoker"
     />
     <media-card
       infoUrl="https://store.steampowered.com/app/721010/Newton_and_the_Apple_Tree/"
@@ -22,7 +35,6 @@
       :year="2018"
       title="Newton and the Apple Tree"  
     />
-    <media-placeholder />
   </div>
   <section-subtitle text="manga" japaneseText="マンガ" />
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-20 p-1 md:p-8 justify-center">
@@ -33,7 +45,12 @@
   </div>
   <section-subtitle text="novels" japaneseText="小説" />
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-20 p-1 md:p-8 justify-center">
-    <media-placeholder />
+    <media-card
+      infoUrl="https://www.amazon.com/dp/B07CGZZT1J"
+      :imageUrl="strongestGamer"
+      :year="2018"
+      title="Strongest Gamer"  
+    />
     <media-placeholder />
     <media-placeholder />
     <media-placeholder />
@@ -49,7 +66,10 @@ import SectionTitle from './Title.vue'
 import SectionSubtitle from './Subtitle.vue'
 import futureRadioImage from './portfolio-images/the-future-radio-and-artificial-pigeons.jpg'
 import eiyuSenkiGold from './portfolio-images/eiyu-senki-gold.jpg'
+import eiyuSenkiWW from './portfolio-images/eiyu-senki-war-wonder.jpeg'
+import riddleJoker from './portfolio-images/riddle-joker.jpeg'
 import newtonAndTheAppleTree from './portfolio-images/newton-and-the-apple-tree.jpg'
+import strongestGamer from './portfolio-images/strongest-gamer.jpeg'
 
 export default defineComponent({
   name: 'Portfolio',
@@ -61,8 +81,11 @@ export default defineComponent({
   },
   data: () => ({
     futureRadioImage,
+    eiyuSenkiWW,
     eiyuSenkiGold,
-    newtonAndTheAppleTree
+    riddleJoker,
+    newtonAndTheAppleTree,
+    strongestGamer
   })
 })
 </script>
