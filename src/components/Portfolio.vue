@@ -31,6 +31,11 @@
       adultsOnly
     />
     <media-card
+      :imageUrl="daydream"
+      :year="2021"
+      title="Daydream Cyanotype"
+    />
+    <media-card
       infoUrl="https://riddle.nekonyansoft.com/"
       :imageUrl="riddleJoker"
       :year="2020"
@@ -43,7 +48,6 @@
       title="Onii Kiss"
     />
     <media-card
-      infoUrl="https://store.steampowered.com/app/721010/Newton_and_the_Apple_Tree/"
       :imageUrl="newtonAndTheAppleTree"
       :year="2018"
       title="Newton and the Apple Tree"  
@@ -78,6 +82,7 @@ import riddleJoker from './portfolio-images/riddle-joker.jpeg'
 import newtonAndTheAppleTree from './portfolio-images/newton-and-the-apple-tree.jpg'
 import strongestGamer from './portfolio-images/strongest-gamer.jpeg'
 import oniiKiss from './portfolio-images/onii-kiss.jpeg'
+import daydream from './portfolio-images/daydream-cyanotype.jpeg'
 
 export default defineComponent({
   name: 'Portfolio',
@@ -95,7 +100,8 @@ export default defineComponent({
     riddleJoker,
     newtonAndTheAppleTree,
     strongestGamer,
-    oniiKiss
+    oniiKiss,
+    daydream
   })
 })
 </script>

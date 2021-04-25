@@ -16,7 +16,7 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'MediaCard',
   props: {
-    imageUrl: String,
+    imageUrl: { type: String, default: undefined },
     infoUrl: String,
     year: Number,
     title: String,
