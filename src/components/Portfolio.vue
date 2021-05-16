@@ -53,9 +53,3 @@ export default defineComponent({
   })
 })
 </script>
-
-<style scoped>
-.subtitle-container {
-  background-color: #0d0216;
-}
-</style>
