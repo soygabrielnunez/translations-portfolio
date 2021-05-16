@@ -20,8 +20,8 @@
       <img :src="vueLogo" class="mx-1 h-5 w-5 inline" />
     </a>
     by
-    <a href="https://twitter.com/Gabrielnzn/" target="_blank" class="font-semibold cursor-pointer">
-      Gabrielnzn
+    <a href="https://github.com/Gabrielnz/" target="_blank" class="font-semibold cursor-pointer">
+      Gabrielnz
     </a>
   </footer>
 </div>
