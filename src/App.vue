@@ -4,7 +4,7 @@
     <div>julio <span class="text-purple-400">colmenares</span></div>
     <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="transform-none lg:transform-gpu duration-500 ease-in-out hover:scale-110 cursor-pointer flex items-center">
       <span class="text-lg normal-case hidden lg:inline">Follow me on</span>
-      <svg class="h-7 lg:h-10 inline mx-2 fill-current text-purple-400" version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      <svg class="h-7 lg:h-10 inline mx-2 fill-current twitter-logo-color" version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           viewBox="0 0 248 204" style="enable-background:new 0 0 248 204;" xml:space="preserve">
         <g id="Logo_1_">
           <path id="white_background" class="st0" d="M221.95,51.29c0.15,2.17,0.15,4.34,0.15,6.53c0,66.73-50.8,143.69-143.69,143.69v-0.04
@@ -62,5 +62,8 @@ body {
 <style scoped>
 .app-container {
   grid-template-columns: minmax(0, 1536px);
+}
+.twitter-logo-color {
+  color: #1D9BF0;
 }
 </style>
