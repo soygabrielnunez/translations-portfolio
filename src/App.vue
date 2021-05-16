@@ -4,7 +4,7 @@
     <div>julio <span class="text-purple-400">colmenares</span></div>
     <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="transform-none lg:transform-gpu duration-500 ease-in-out hover:scale-110 cursor-pointer flex items-center">
       <span class="text-lg normal-case hidden lg:inline">Follow me on</span>
-      <svg class="h-7 lg:h-10 inline mx-2 fill-current twitter-logo-color" version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      <svg class="h-7 lg:h-10 inline ml-2 fill-current twitter-logo-color" version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           viewBox="0 0 248 204" style="enable-background:new 0 0 248 204;" xml:space="preserve">
         <g id="Logo_1_">
           <path id="white_background" class="st0" d="M221.95,51.29c0.15,2.17,0.15,4.34,0.15,6.53c0,66.73-50.8,143.69-143.69,143.69v-0.04
@@ -17,6 +17,25 @@
       </svg>
     </a>
   </header>
+  <div class="inline-flex justify-end p-8">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current text-gray-900" viewBox="0 0 20 20" fill="currentColor">
+      <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd" />
+    </svg>
+    <Switch
+      v-model="enabled"
+      :class="enabled ? 'bg-purple-500' : 'bg-purple-400'"
+      class="relative inline-flex items-center h-6 rounded-full w-11 transition ease-in-out duration-200 mx-1"
+    >
+      <span class="sr-only">Enable dark mode</span>
+      <span
+        :class="enabled ? 'translate-x-6' : 'translate-x-1'"
+        class="inline-block w-4 h-4 transform bg-white rounded-full transition ease-in-out duration-200"
+      />
+    </Switch>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current text-gray-900" viewBox="0 0 20 20" fill="currentColor">
+      <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+    </svg>
+  </div>
   <main>
     <Portfolio/>
   </main>
@@ -41,15 +60,22 @@
 import { defineComponent } from 'vue'
 import Portfolio from './components/Portfolio.vue'
 import vueLogo from './assets/vue-logo.png'
+import { ref } from 'vue'
+import { Switch } from '@headlessui/vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    Portfolio
+    Portfolio,
+    Switch
   },
-  data: () => ({
-    vueLogo
-  })
+  setup() {
+    const enabled = ref(true)
+    return {
+      enabled,
+      vueLogo
+    }
+  }
 })
 </script>
 
