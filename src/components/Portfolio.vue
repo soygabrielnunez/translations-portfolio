@@ -10,6 +10,7 @@
       :imageUrl="item.imageUrl"
       :year="item.year"
       :title="item.title"
+      :adultsOnly="item.adultsOnly"
     />
   </div>
   <section-subtitle text="novels" japaneseText="小説" />
@@ -21,6 +22,7 @@
       :imageUrl="item.imageUrl"
       :year="item.year"
       :title="item.title"
+      :adultsOnly="item.adultsOnly"
     />
     <media-placeholder />
     <media-placeholder />
