@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="rounded-xl h-96 bg-purple-400 dark:bg-gray-50 flex justify-center items-center">
+  <div class="rounded-xl h-96 w-72 bg-purple-400 dark:bg-gray-50 flex justify-center items-center">
     <span class="text-3xl text-gray-50 dark:text-purple-400 font-extrabold tracking-widest">近日公開</span>
   </div>
   <div class="p-2">

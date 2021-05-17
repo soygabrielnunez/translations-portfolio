@@ -2,7 +2,7 @@
 <div class="grid p-8 gap-10">
   <section-title text="translations portfolio" japaneseText="翻訳ポートフォリオ" />
   <section-subtitle text="video games" japaneseText="ビデオゲーム" />
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-20 p-1 md:p-8 justify-center">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-20 p-1 md:p-8 justify-center justify-items-center">
     <media-card
       v-for="(item, index) in videoGames"
       :key="index"
@@ -14,7 +14,7 @@
     />
   </div>
   <section-subtitle text="novels" japaneseText="小説" />
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-20 p-1 md:p-8 justify-center">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-20 p-1 md:p-8 justify-center justify-items-center">
     <media-card
       v-for="(item, index) in novels"
       :key="index"
