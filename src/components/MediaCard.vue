@@ -2,7 +2,7 @@
 <div class="transform-none lg:transform-gpu duration-500 ease-in-out hover:scale-110 cursor-pointer relative">
   <a :href="infoUrl" target="_blank">
     <img :src="imageUrl" class="h-96 w-72 rounded-xl object-cover" />
-    <div class="p-2">
+    <div class="p-2 text-container">
       <span class="text-purple-400 font-medium">{{year}}</span>
       <span v-if="adultsOnly" class="text-purple-400 font-medium"> (+18 作品)</span>
       <h5 class="dark:text-gray-50 font-semibold">{{title}}</h5>
@@ -24,3 +24,9 @@ export default defineComponent({
   }
 })
 </script>
+
+<style scoped>
+.text-container {
+  max-width: fit-content;
+}
+</style>
