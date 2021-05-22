@@ -35,8 +35,8 @@
 import { defineComponent } from 'vue'
 import MediaCard from '../MediaCard.vue'
 import MediaPlaceholder from '../MediaPlaceholder.vue'
-import SectionTitle from '../Title.vue'
-import SectionSubtitle from '../Subtitle.vue'
+import SectionTitle from '../SectionTitle.vue'
+import SectionSubtitle from '../SectionSubtitle.vue'
 import portfolio from './portfolio.json'
 
 export default defineComponent({
