@@ -58,7 +58,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import Portfolio from './components/Portfolio.vue'
+import Portfolio from './components/pages/Portfolio.vue'
 import vueLogo from './assets/vue-logo.png'
 import { ref, watch } from 'vue'
 import { Switch } from '@headlessui/vue'

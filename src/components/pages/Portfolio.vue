@@ -33,10 +33,10 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import MediaCard from './MediaCard.vue'
-import MediaPlaceholder from './MediaPlaceholder.vue'
-import SectionTitle from './Title.vue'
-import SectionSubtitle from './Subtitle.vue'
+import MediaCard from '../MediaCard.vue'
+import MediaPlaceholder from '../MediaPlaceholder.vue'
+import SectionTitle from '../Title.vue'
+import SectionSubtitle from '../Subtitle.vue'
 import portfolio from './portfolio.json'
 
 export default defineComponent({
