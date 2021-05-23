@@ -2,7 +2,6 @@
 <div class="grid justify-center app-container">
   <header class="p-8 dark:text-gray-50 text-3xl sm:text-5xl font-semibold flex justify-between items-center">
     <router-link to="/">Julio <span class="text-purple-400">Colmenares</span></router-link>
-    <router-link to ="/about-me" class="text-lg">About me</router-link>
   </header>
   <div class="inline-flex justify-end p-8">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current text-gray-900 dark:text-gray-100" viewBox="0 0 20 20" fill="currentColor">
@@ -74,8 +73,5 @@ export default defineComponent({
 <style scoped>
 .app-container {
   grid-template-columns: minmax(0, 1536px);
-}
-.twitter-logo-color {
-  color: #1D9BF0;
 }
 </style>
