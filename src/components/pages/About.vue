@@ -1,9 +1,9 @@
 <template>
-<div class="about-container grid place-content-around">
+<div class="about-container grid place-content-around p-8 gap-10">
   <section-title text="About me" japaneseText="私について" />
-  <div class="flex">
-    <p class="dark:text-gray-50 text-2xl text-center">I'm taking my time to tell you a bit about me, wait for it ;). In the meantime, follow me on</p>
-    <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="cursor-pointer flex items-center dark:text-gray-50">
+  <div>
+    <span class="dark:text-gray-50 text-2xl text-justify">I'm taking my time to tell you a bit about me, wait for it ;). In the meantime, follow me on</span>
+    <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="cursor-pointer dark:text-gray-50 inline">
       <svg class="h-5 lg:h-8 inline ml-2 fill-current twitter-logo-color" version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           viewBox="0 0 248 204" style="enable-background:new 0 0 248 204;" xml:space="preserve">
         <g id="Logo_1_">
