@@ -28,9 +28,8 @@
   </main>
   <footer class="dark:text-gray-50 p-6 text-lg">
     <div>
-      <span>Follow me on Twitter
       <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="cursor-pointer">
-        <svg class="h-5 lg:h-7 inline ml-2 fill-current twitter-logo-color" version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg class="h-4 lg:h-6 inline fill-current twitter-logo-color" version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 248 204" style="enable-background:new 0 0 248 204;" xml:space="preserve">
           <g id="Logo_1_">
             <path id="white_background" class="st0" d="M221.95,51.29c0.15,2.17,0.15,4.34,0.15,6.53c0,66.73-50.8,143.69-143.69,143.69v-0.04
@@ -41,9 +40,12 @@
               c-3.77,11.69-11.66,21.62-22.2,27.93c10.01-1.18,19.79-3.86,29-7.95C240.37,35.29,231.83,44.14,221.95,51.29z"/>
           </g>
         </svg>
-      </a>
-      </span>
+      </a>&nbsp;
+      <span>Follow me: @Bango_the_Go</span>
       <br />
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 lg:h-6 lg:w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      </svg>&nbsp;&nbsp;
       <span>Email me: chuchunmaru@gmail.com</span>
     </div>
     <div class="text-center mt-10">
