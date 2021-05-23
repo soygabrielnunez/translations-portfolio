@@ -1,6 +1,9 @@
 <template>
-<div class="about-container grid p-8 gap-10">
+<div class="about-container">
   <section-title text="About me" japaneseText="私について" />
+  <br />
+  <br />
+  <br />
   <div class="text-justify md:text-center">
     <span class="dark:text-gray-50 text-2xl">I'm taking my time to tell you a bit about me, wait for it ;). In the meantime, follow me on</span>
     <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="cursor-pointer dark:text-gray-50">
@@ -32,7 +35,7 @@ export default {
 
 <style scoped>
 .about-container {
-  min-height: 60vh;
+  min-height: 54vh;
 }
 .twitter-logo-color {
   color: #1D9BF0;
