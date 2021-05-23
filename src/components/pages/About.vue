@@ -3,8 +3,8 @@
   <section-title text="About me" japaneseText="私について" />
   <div>
     <span class="dark:text-gray-50 text-2xl text-justify">I'm taking my time to tell you a bit about me, wait for it ;). In the meantime, follow me on</span>
-    <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="cursor-pointer dark:text-gray-50 inline">
-      <svg class="h-5 lg:h-8 inline ml-2 fill-current twitter-logo-color" version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="cursor-pointer dark:text-gray-50">
+      <svg class="h-7 lg:h-9 inline ml-2 fill-current twitter-logo-color" version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           viewBox="0 0 248 204" style="enable-background:new 0 0 248 204;" xml:space="preserve">
         <g id="Logo_1_">
           <path id="white_background" class="st0" d="M221.95,51.29c0.15,2.17,0.15,4.34,0.15,6.53c0,66.73-50.8,143.69-143.69,143.69v-0.04
