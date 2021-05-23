@@ -1,6 +1,6 @@
 <template>
 <section-title text="About me" japaneseText="私について" />
-<p class="text-justify md:text-center text-xl dark:text-gray-50 mb-72 md:mb-96">
+<p class="text-justify md:text-center text-xl dark:text-gray-50 mb-48 md:mb-72">
   I'm taking my time to tell you a bit about me, wait for it ;).
 </p>
 </template>
