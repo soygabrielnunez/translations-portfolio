@@ -41,12 +41,12 @@
           </g>
         </svg>
       </a>&nbsp;
-      <span>Follow me: @Bango_the_Go</span>
+      <span class="hidden lg:inline">Follow me: </span><span>@Bango_the_Go</span>
       <br />
       <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 lg:h-6 lg:w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
       </svg>&nbsp;&nbsp;
-      <span>Email me: chuchunmaru@gmail.com</span>
+      <span class="hidden lg:inline">Email me: </span><span>chuchunmaru@gmail.com</span>
     </div>
     <div class="text-center mt-10">
       Made with 
@@ -58,7 +58,7 @@
         <img :src="vueLogo" class="mx-1 h-5 w-5 inline" />
       </a>
       by
-      <a href="https://github.com/Gabrielnz/" target="_blank" class="font-bold cursor-pointer">
+      <a href="https://github.com/Gabrielnz/" target="_blank" class="font-bold cursor-pointer underline">
         Gabrielnz
       </a>
     </div>
