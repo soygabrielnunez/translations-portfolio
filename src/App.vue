@@ -1,8 +1,8 @@
 <template>
 <div class="grid justify-center app-container">
   <header class="p-8 dark:text-gray-50 text-3xl sm:text-5xl font-semibold flex items-center">
-    <img src="/avatar.jpg" class="rounded-full h-14 lg:h-20 w-14 lg:w-20" />
-    <router-link to="/" class="ml-2 lg:ml-4">Julio <span class="text-purple-400">Colmenares</span></router-link>
+    <router-link to="/"><img src="/avatar.jpg" class="rounded-full h-14 lg:h-20 w-14 lg:w-20" /></router-link>&nbsp;
+    <router-link to="/"><span>Julio<span class="text-purple-400"> Colmenares</span></span></router-link>
   </header>
   <div class="inline-flex justify-end p-8">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current text-gray-900 dark:text-gray-100" viewBox="0 0 20 20" fill="currentColor">
