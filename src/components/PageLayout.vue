@@ -24,7 +24,7 @@
     </svg>
   </div>
   <main class="grid p-8 gap-10">
-    <slot />
+    <router-view />
   </main>
   <footer class="dark:text-gray-50 p-6 text-lg">
     <div>

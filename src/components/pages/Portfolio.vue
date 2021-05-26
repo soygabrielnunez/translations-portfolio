@@ -1,5 +1,4 @@
 <template>
-<page-layout>
   <section-title text="translations portfolio" japaneseText="翻訳ポートフォリオ" />
   <p class="text-center dark:text-gray-50 md:text-xl"><span class="font-semibold">Hello! / <span class="text-purple-400">こんにちは！</span></span> I'm a Japanese-English translator for JAST/Nekonyan/Solpress. You can get to know more about me <router-link to="/about-me"><span class="text-purple-400 font-semibold underline">by clicking here</span></router-link>
   </p>
@@ -30,7 +29,6 @@
     <media-placeholder />
     <media-placeholder />
   </div>
-</page-layout>
 </template>
 
 <script lang="ts">
@@ -40,7 +38,6 @@ import MediaPlaceholder from '../MediaPlaceholder.vue'
 import SectionTitle from '../SectionTitle.vue'
 import SectionSubtitle from '../SectionSubtitle.vue'
 import portfolio from './portfolio.json'
-import PageLayout from '../PageLayout.vue'
 
 export default defineComponent({
   name: 'Portfolio',
@@ -48,8 +45,7 @@ export default defineComponent({
     SectionTitle,
     SectionSubtitle,
     MediaCard,
-    MediaPlaceholder,
-    PageLayout
+    MediaPlaceholder
   },
   data: () => ({
     videoGames: portfolio.videoGames,
