@@ -26,9 +26,9 @@
         :title="item.title"
         :adultsOnly="item.adultsOnly"
       />
-      <media-placeholder />
-      <media-placeholder />
-      <media-placeholder />
+      <media-card />
+      <media-card />
+      <media-card />
     </div>
   </div>
 </template>
@@ -36,7 +36,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import MediaCard from '../MediaCard.vue'
-import MediaPlaceholder from '../MediaPlaceholder.vue'
 import SectionTitle from '../SectionTitle.vue'
 import SectionSubtitle from '../SectionSubtitle.vue'
 import portfolio from './portfolio.json'
@@ -45,8 +44,7 @@ export default defineComponent({
   components: {
     SectionTitle,
     SectionSubtitle,
-    MediaCard,
-    MediaPlaceholder
+    MediaCard
   },
   data: () => ({
     videoGames: portfolio.videoGames,
