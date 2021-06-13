@@ -24,7 +24,11 @@
     </svg>
   </div>
   <main class="grid p-8 gap-10">
-    <router-view />
+    <router-view v-slot="{ Component }">
+        <transition name="fade">
+            <component :is="Component" />
+        </transition>
+    </router-view>
   </main>
   <footer class="dark:text-gray-50 p-6 text-lg">
     <div>
@@ -96,5 +100,11 @@ export default defineComponent({
 }
 .twitter-logo-color {
   color: #1D9BF0;
+}
+.fade-enter-active {
+  transition: opacity 1s ease;
+}
+.fade-enter-from {
+  opacity: 0;
 }
 </style>
