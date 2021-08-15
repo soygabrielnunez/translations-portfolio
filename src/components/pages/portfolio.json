@@ -1,6 +1,13 @@
 {
     "videoGames": [
         {
+            "title": "Parquet",
+            "year": 2021,
+            "imageUrl": "/parquet.jpeg",
+            "infoUrl": "https://store.steampowered.com/app/1662840/PARQUET/",
+            "adultsOnly": false
+        },
+        {
             "title": "The Future Radio and the Artificial Pigeons",
             "year": 2021,
             "imageUrl": "/the-future-radio-and-artificial-pigeons.jpg",
