@@ -8,7 +8,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 export default defineComponent({
-  name: 'SectionSubtitle',
   props: {
     text: String,
     japaneseText: String

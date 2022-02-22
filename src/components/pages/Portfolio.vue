@@ -48,9 +48,11 @@ export default defineComponent({
   },
   setup () {
     const firstYearTranslating = 2018
+
     const yearsOfExperience = computed(() => {
       return new Date().getFullYear() - firstYearTranslating
     })
+
     return {
       yearsOfExperience,
       videoGames: portfolio.videoGames,

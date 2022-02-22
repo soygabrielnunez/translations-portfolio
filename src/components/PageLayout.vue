@@ -77,15 +77,16 @@ import { ref, watch } from 'vue'
 import { Switch } from '@headlessui/vue'
 
 export default defineComponent({
-  name: 'PageLayout',
   components: {
     Switch
   },
   setup() {
     const enableDarkMode = ref(false)
+
     watch(enableDarkMode, enable => {
       enable ? document.documentElement.classList.add('dark') : document.documentElement.classList.remove('dark')
     })
+
     return {
       enableDarkMode,
       vueLogo
