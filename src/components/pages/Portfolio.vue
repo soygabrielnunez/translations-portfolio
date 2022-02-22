@@ -48,10 +48,9 @@ export default defineComponent({
   },
   setup () {
     const firstYearTranslating = 2018
+    const currentYear = new Date().getFullYear()
 
-    const yearsOfExperience = computed(() => {
-      return new Date().getFullYear() - firstYearTranslating
-    })
+    const yearsOfExperience = computed(() => currentYear - firstYearTranslating)
 
     return {
       yearsOfExperience,
