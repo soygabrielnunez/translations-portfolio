@@ -82,9 +82,11 @@ export default defineComponent({
   },
   setup() {
     const enableDarkMode = ref(false)
+    const addDarkModeClass = () => document.documentElement.classList.add('dark')
+    const removeDarkModeClass = () => document.documentElement.classList.remove('dark')
 
     watch(enableDarkMode, enable => {
-      enable ? document.documentElement.classList.add('dark') : document.documentElement.classList.remove('dark')
+      enable ? addDarkModeClass() : removeDarkModeClass()
     })
 
     return {
