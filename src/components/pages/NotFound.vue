@@ -6,9 +6,3 @@
   <p class="text-gray-50 md:text-xl">Oops, we couldn't find what you are looking for :( what if you <router-link to="/" class="underline">come back home?</router-link></p>
 </div>
 </template>
-
-<script>
-export default {
-    name: 'NotFound'
-}
-</script>
