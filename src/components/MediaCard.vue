@@ -1,5 +1,5 @@
 <template>
-<div class="transform-none lg:transform-gpu duration-500 ease-in-out hover:scale-110 cursor-pointer">
+<div class="transform-none lg:transform-gpu lg:duration-500 lg:ease-in-out lg:hover:scale-110 cursor-pointer">
   <a :href="infoUrl" target="_blank">
     <img :src="imageUrl" class="h-auto md:h-96 w-full rounded-xl object-cover" />
     <div class="p-2">
