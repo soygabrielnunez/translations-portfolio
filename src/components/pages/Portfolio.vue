@@ -6,7 +6,7 @@
     You can get to know more about me <router-link to="/about-me"><span class="text-purple-400 font-semibold underline">by clicking here</span></router-link>
     </p>
     <section-subtitle text="video games" japaneseText="ビデオゲーム" />
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-20 p-1 md:p-8 justify-center justify-items-center">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-16 p-1 md:p-8 justify-center justify-items-center">
       <media-card
         v-for="(item, index) in videoGames"
         :key="index"
@@ -18,7 +18,7 @@
       />
     </div>
     <section-subtitle text="novels" japaneseText="小説" />
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-20 p-1 md:p-8 justify-center justify-items-center">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-16 p-1 md:p-8 justify-center justify-items-center">
       <media-card
         v-for="(item, index) in novels"
         :key="index"
