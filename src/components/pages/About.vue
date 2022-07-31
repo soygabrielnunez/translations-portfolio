@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="px-6">
     <section-title text="About me" japaneseText="私について" />
     <p class="text-justify md:text-xl dark:text-gray-50 mb-32 md:mb-20">
       My name is J. "Bango" Colmenares, and I'm a <span class="underline decoration-purple-400 decoration-2 underline-offset-2">JP>ENG localizer</span> that works mainly in the video game/visual novel space, though I do have experience in with light novel and manga as well.
