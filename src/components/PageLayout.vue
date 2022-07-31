@@ -1,28 +1,32 @@
 <template>
 <div class="grid justify-center app-container">
-  <header class="p-8 dark:text-gray-50 text-3xl sm:text-5xl font-semibold flex items-center">
-    <router-link to="/"><img src="/avatar.jpg" class="rounded-full h-14 lg:h-20 w-14 lg:w-20" /></router-link>&nbsp;
-    <router-link to="/"><span>Julio<span class="text-purple-400"> Colmenares</span></span></router-link>
-  </header>
-  <div class="inline-flex justify-end p-8">
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current text-gray-900 dark:text-gray-100" viewBox="0 0 20 20" fill="currentColor">
-      <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd" />
-    </svg>
-    <Switch
-      v-model="enableDarkMode"
-      :class="enableDarkMode ? 'bg-purple-500' : 'bg-purple-400'"
-      class="relative inline-flex items-center h-7 w-12 rounded-full  transition ease-in-out duration-200 mx-1"
+  <header class="p-6 md:p-8 dark:text-gray-50 text-3xl sm:text-5xl font-semibold flex items-center justify-between">
+    <div class="flex items-center">
+      <router-link to="/"><img src="/avatar.jpg" class="rounded-full h-14 lg:h-20 w-14 lg:w-20" /></router-link>&nbsp;
+      <router-link to="/"><span>Julio<span class="text-purple-400"> Colmenares</span></span></router-link>
+    </div>
+    <button
+      @click="changeDarkMode"
     >
-      <span class="sr-only">Enable dark mode</span>
-      <span
-        :class="enableDarkMode ? 'translate-x-6' : 'translate-x-1'"
-        class="inline-block w-5 h-5 transform bg-white rounded-full transition ease-in-out duration-200"
-      />
-    </Switch>
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current text-gray-900 dark:text-gray-100" viewBox="0 0 20 20" fill="currentColor">
-      <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-    </svg>
-  </div>
+      <svg
+        v-if="enableDarkMode"
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6 fill-current text-gray-900 dark:text-gray-100"
+        viewBox="0 0 20 20" fill="currentColor"
+      >
+        <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd" />
+      </svg>
+      <svg
+        v-else
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6 fill-current text-gray-900 dark:text-gray-100"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+      </svg>
+    </button>
+  </header>
   <main class="grid p-4 md:p-8 gap-10">
     <router-view v-slot="{ Component }">
         <transition name="fade">
@@ -73,7 +77,6 @@
 <script setup lang="ts">
 import vueLogo from '../assets/vue-logo.png'
 import { ref, watch } from 'vue'
-import { Switch } from '@headlessui/vue'
 
 const enableDarkMode = ref(false)
 const addDarkModeClass = () => document.documentElement.classList.add('dark')
@@ -82,6 +85,10 @@ const removeDarkModeClass = () => document.documentElement.classList.remove('dar
 watch(enableDarkMode, enable => {
   enable ? addDarkModeClass() : removeDarkModeClass()
 })
+
+const changeDarkMode = () => {
+  enableDarkMode.value = !enableDarkMode.value
+}
 </script>
 
 <style scoped>
