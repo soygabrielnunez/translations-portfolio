@@ -70,30 +70,17 @@
 </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
+<script setup lang="ts">
 import vueLogo from '../assets/vue-logo.png'
 import { ref, watch } from 'vue'
 import { Switch } from '@headlessui/vue'
 
-export default defineComponent({
-  components: {
-    Switch
-  },
-  setup() {
-    const enableDarkMode = ref(false)
-    const addDarkModeClass = () => document.documentElement.classList.add('dark')
-    const removeDarkModeClass = () => document.documentElement.classList.remove('dark')
+const enableDarkMode = ref(false)
+const addDarkModeClass = () => document.documentElement.classList.add('dark')
+const removeDarkModeClass = () => document.documentElement.classList.remove('dark')
 
-    watch(enableDarkMode, enable => {
-      enable ? addDarkModeClass() : removeDarkModeClass()
-    })
-
-    return {
-      enableDarkMode,
-      vueLogo
-    }
-  }
+watch(enableDarkMode, enable => {
+  enable ? addDarkModeClass() : removeDarkModeClass()
 })
 </script>
 

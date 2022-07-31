@@ -35,30 +35,16 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent, computed } from 'vue'
+<script setup lang="ts">
+import { computed } from 'vue'
 import MediaCard from '../MediaCard.vue'
 import SectionTitle from '../SectionTitle.vue'
 import SectionSubtitle from '../SectionSubtitle.vue'
 import portfolio from './portfolio.json'
 
-export default defineComponent({
-  components: {
-    SectionTitle,
-    SectionSubtitle,
-    MediaCard
-  },
-  setup () {
-    const firstYearTranslating = 2018
-    const currentYear = new Date().getFullYear()
+const firstYearTranslating = 2018
+const currentYear = new Date().getFullYear()
 
-    const yearsOfExperience = computed(() => currentYear - firstYearTranslating)
-
-    return {
-      yearsOfExperience,
-      videoGames: portfolio.videoGames,
-      novels: portfolio.novels
-    }
-  }
-})
+const yearsOfExperience = computed(() => currentYear - firstYearTranslating)
+const { videoGames, novels } = portfolio
 </script>
