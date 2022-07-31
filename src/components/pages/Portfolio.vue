@@ -29,8 +29,6 @@
         :adultsOnly="item.adultsOnly"
       />
       <media-card />
-      <media-card />
-      <media-card />
     </div>
   </div>
 </template>
