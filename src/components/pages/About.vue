@@ -13,12 +13,6 @@
   </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 import SectionTitle from '../SectionTitle.vue'
-
-export default {
-    components: {
-      SectionTitle
-    }
-}
 </script>

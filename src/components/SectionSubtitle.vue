@@ -5,14 +5,10 @@
 </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({
-  props: {
-    text: String,
-    japaneseText: String
-  }
+<script setup lang="ts">
+defineProps({
+  text: String,
+  japaneseText: String
 })
 </script>
 

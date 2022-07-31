@@ -23,16 +23,12 @@
 </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({
-  props: {
-    imageUrl: { type: String, default: undefined },
+<script setup lang="ts">
+defineProps({
+  imageUrl: { type: String, default: undefined },
     infoUrl: String,
     year: Number,
     title: String,
     adultsOnly: { type: Boolean, default: false }
-  }
 })
 </script>
