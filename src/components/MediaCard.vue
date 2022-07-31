@@ -1,6 +1,6 @@
 <template>
-<div class="h-96 w-full transform-none lg:transform-gpu duration-500 ease-in-out hover:scale-110 cursor-pointer">
-  <a :href="infoUrl" target="_blank">
+<div class="transform-none lg:transform-gpu duration-500 ease-in-out hover:scale-110 cursor-pointer">
+  <a class="h-96 w-full" :href="infoUrl" target="_blank">
     <img :src="imageUrl" class="h-max md:h-96 w-max rounded-xl object-cover" />
     <div class="p-2">
       <span class="text-purple-400 font-medium">{{year}}</span>
