@@ -28,7 +28,7 @@
         :title="item.title"
         :adultsOnly="item.adultsOnly"
       />
-      <media-card />
+      <placeholder />
     </div>
   </div>
 </template>
@@ -36,6 +36,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import MediaCard from '../MediaCard.vue'
+import Placeholder from '../Placeholder.vue'
 import SectionTitle from '../SectionTitle.vue'
 import SectionSubtitle from '../SectionSubtitle.vue'
 import portfolio from './portfolio.json'
