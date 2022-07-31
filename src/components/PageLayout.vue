@@ -23,7 +23,7 @@
       <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
     </svg>
   </div>
-  <main class="grid p-8 gap-10">
+  <main class="grid p-4 md:p-8 gap-10">
     <router-view v-slot="{ Component }">
         <transition name="fade">
             <component :is="Component" />
