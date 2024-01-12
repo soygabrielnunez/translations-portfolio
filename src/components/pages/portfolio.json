@@ -1,6 +1,13 @@
 {
     "videoGames": [
         {
+            "title": "KONOSUBA",
+            "year": 2024,
+            "imageUrl": "/konosuba.jpeg",
+            "infoUrl": "https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/KONOSUBA-God-s-Blessing-on-this-Wonderful-World-Love-For-These-Clothes-Of-Desire--2476262.html",
+            "adultsOnly": false
+        },
+        {
             "title": "Parquet",
             "year": 2021,
             "imageUrl": "/parquet.jpeg",
