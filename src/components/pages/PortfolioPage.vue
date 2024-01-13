@@ -6,7 +6,7 @@
   </p>
   <section-subtitle text="video games" japaneseText="ビデオゲーム" />
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-16 p-1 md:p-8 justify-center justify-items-center">
-    <media-card
+    <project-card
       v-for="(item, index) in videoGames"
       :key="index"
       :infoUrl="item.infoUrl"
@@ -18,7 +18,7 @@
   </div>
   <section-subtitle text="novels" japaneseText="小説" />
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-16 p-1 md:p-8 justify-center justify-items-center">
-    <media-card
+    <project-card
       v-for="(item, index) in novels"
       :key="index"
       :infoUrl="item.infoUrl"
@@ -27,14 +27,14 @@
       :title="item.title"
       :adultsOnly="item.adultsOnly"
     />
-    <placeholder />
+    <placeholder-card />
   </div>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import MediaCard from '../MediaCard.vue'
-import Placeholder from '../Placeholder.vue'
+import ProjectCard from '../ProjectCard.vue'
+import PlaceholderCard from '../PlaceholderCard.vue'
 import SectionTitle from '../SectionTitle.vue'
 import SectionSubtitle from '../SectionSubtitle.vue'
 import workData from './workData.json'
