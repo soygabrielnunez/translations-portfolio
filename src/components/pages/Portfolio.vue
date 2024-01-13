@@ -37,11 +37,11 @@ import MediaCard from '../MediaCard.vue'
 import Placeholder from '../Placeholder.vue'
 import SectionTitle from '../SectionTitle.vue'
 import SectionSubtitle from '../SectionSubtitle.vue'
-import data from './data.json'
+import workData from './workData.json'
 
 const firstYearTranslating = 2018
 const currentYear = new Date().getFullYear()
 
 const yearsOfExperience = computed(() => currentYear - firstYearTranslating)
-const { videoGames, novels } = data
+const { videoGames, novels } = workData
 </script>
