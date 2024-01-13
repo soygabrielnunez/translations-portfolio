@@ -75,7 +75,7 @@
 </template>
 
 <script setup lang="ts">
-import vueLogo from '../assets/vue-logo.png'
+import vueLogo from '../../assets/vue-logo.png'
 import { ref, watch } from 'vue'
 
 const enableDarkMode = ref(false)

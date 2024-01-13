@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import PageLayout from './components/PageLayout.vue'
+import PageLayout from './components/pages/PageLayout.vue'
 import Portfolio from './components/pages/Portfolio.vue'
 import About from './components/pages/About.vue'
 import NotFound from './components/pages/NotFound.vue'
