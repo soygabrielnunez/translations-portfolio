@@ -1,13 +1,13 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import PageLayout from './components/PageLayout.vue'
-import Portfolio from './components/pages/Portfolio.vue'
-import About from './components/pages/About.vue'
-import NotFound from './components/pages/NotFound.vue'
+import Layout from './components/pages/PageLayout.vue'
+import Portfolio from './components/pages/PortfolioPage.vue'
+import About from './components/pages/AboutPage.vue'
+import NotFound from './components/pages/NotFoundPage.vue'
 
 const routes = [
     {
         path: '/',
-        component: PageLayout,
+        component: Layout,
         children: [
             { path: '/', component: Portfolio },
             { path: '/about-me', component: About }

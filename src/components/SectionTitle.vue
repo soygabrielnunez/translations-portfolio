@@ -6,8 +6,8 @@
 </template>
 
 <script setup lang="ts">
-defineProps({
-  text: String,
-  japaneseText: String
-})
+defineProps<{
+  text: string
+  japaneseText: string
+}>()
 </script>

@@ -2,7 +2,11 @@
 <div class="grid justify-center app-container">
   <header class="p-6 md:p-8 dark:text-gray-50 text-3xl sm:text-5xl font-semibold flex items-center justify-between">
     <div class="flex items-center">
-      <router-link to="/"><img src="/avatar.jpg" class="rounded-full h-14 lg:h-20 w-14 lg:w-20" /></router-link>&nbsp;
+      <router-link to="/"><img
+        alt="Bango's avatar image"
+        src="/avatar.jpg"
+        class="rounded-full h-14 lg:h-20 w-14 lg:w-20"
+      /></router-link>&nbsp;
       <router-link to="/"><span>Julio<span class="text-purple-400"> Colmenares</span></span></router-link>
     </div>
     <button
@@ -63,7 +67,11 @@
       </svg>
       and
       <a href="https://vuejs.org/" target="_blank" class="cursor-pointer">
-        <img :src="vueLogo" class="mx-1 h-5 w-5 inline" />
+        <img
+          alt="Vue.js logo"
+          :src="vueLogo"
+          class="mx-1 h-5 w-5 inline"
+        />
       </a>
       by
       <a href="https://github.com/Gabrielnz/" target="_blank" class="font-bold cursor-pointer underline">
@@ -75,7 +83,7 @@
 </template>
 
 <script setup lang="ts">
-import vueLogo from '../assets/vue-logo.png'
+import vueLogo from '../../assets/vue-logo.png'
 import { ref, watch } from 'vue'
 
 const enableDarkMode = ref(false)
