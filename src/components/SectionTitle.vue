@@ -8,6 +8,6 @@
 <script setup lang="ts">
 defineProps<{
   text: string
-  japaneseText?: string
+  japaneseText: string
 }>()
 </script>
