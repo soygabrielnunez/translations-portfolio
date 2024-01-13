@@ -1,6 +1,6 @@
 <template>
   <section-title text="translations portfolio" japaneseText="翻訳ポートフォリオ" />
-  <p class="text-center dark:text-gray-50 md:text-xl"><span class="font-semibold">Hello! / <span class="text-purple-400">こんにちは</span></span> I'm a Japanese-English translator for JAST/Nekonyan/Solpress, with more than {{ yearsOfExperience }} years of experience.
+  <p class="text-center dark:text-gray-50 md:text-xl"><span class="font-semibold">Hello! / <span translate="no" class="text-purple-400">こんにちは</span></span> I'm a Japanese-English translator for JAST/Nekonyan/Solpress, with more than {{ yearsOfExperience }} years of experience.
   <br />
   You can get to know more about me <router-link to="/about-me"><span class="text-purple-400 font-semibold underline">by clicking here</span></router-link>
   </p>
