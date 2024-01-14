@@ -7,25 +7,25 @@
   <section-subtitle text="video games" japaneseText="ビデオゲーム" />
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-16 p-1 md:p-8 justify-center justify-items-center">
     <project-card
-      v-for="(item, index) in videoGames"
+      v-for="(project, index) in videoGames"
       :key="index"
-      :infoUrl="item.infoUrl"
-      :imageUrl="item.imageUrl"
-      :year="item.year"
-      :title="item.title"
-      :adultsOnly="item.adultsOnly"
+      :infoUrl="project.infoUrl"
+      :imageUrl="project.imageUrl"
+      :year="project.year"
+      :title="project.title"
+      :adultsOnly="project.adultsOnly"
     />
   </div>
   <section-subtitle text="novels" japaneseText="小説" />
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-16 p-1 md:p-8 justify-center justify-items-center">
     <project-card
-      v-for="(item, index) in novels"
+      v-for="(project, index) in novels"
       :key="index"
-      :infoUrl="item.infoUrl"
-      :imageUrl="item.imageUrl"
-      :year="item.year"
-      :title="item.title"
-      :adultsOnly="item.adultsOnly"
+      :infoUrl="project.infoUrl"
+      :imageUrl="project.imageUrl"
+      :year="project.year"
+      :title="project.title"
+      :adultsOnly="project.adultsOnly"
     />
   </div>
 </template>
@@ -35,11 +35,11 @@ import { computed } from 'vue'
 import ProjectCard from '../ProjectCard.vue'
 import SectionTitle from '../SectionTitle.vue'
 import SectionSubtitle from '../SectionSubtitle.vue'
-import workData from './workData.json'
+import projects from '../../assets/projects.json'
 
 const firstYearTranslating = 2018
 const currentYear = new Date().getFullYear()
 
 const yearsOfExperience = computed(() => currentYear - firstYearTranslating)
-const { videoGames, novels } = workData
+const { videoGames, novels } = projects
 </script>
