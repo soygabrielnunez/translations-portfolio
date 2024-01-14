@@ -11,6 +11,7 @@
     </div>
     <button
       @click="changeDarkMode"
+      aria-label="Dark mode toggle button"
     >
       <svg
         v-if="enableDarkMode"
