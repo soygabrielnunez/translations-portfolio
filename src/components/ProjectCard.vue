@@ -11,8 +11,8 @@
       class="aspect-[3/4] rounded-xl"
     />
     <div class="p-2">
-      <span class="text-purple-400 font-medium">{{year}}</span>
-      <span v-if="isForAdultsOnly" class="text-purple-400 font-medium"> (+18 作品)</span>
+      <span class="text-purple-600 dark:text-purple-400 font-medium">{{year}}</span>
+      <span v-if="isForAdultsOnly" class="text-purple-600 dark:text-purple-400 font-medium"> (+18 作品)</span>
       <h5 class="dark:text-gray-50 font-semibold">{{title}}</h5>
     </div>
   </a>
@@ -24,8 +24,8 @@
         class="aspect-[3/4] rounded-xl"
       />
       <div class="p-2">
-        <span class="text-purple-400 font-medium">{{year}}</span>
-        <span v-if="isForAdultsOnly" class="text-purple-400 font-medium"> (+18 <span translate="no">作品</span>)</span>
+        <span class="text-purple-600 dark:text-purple-400 font-medium">{{year}}</span>
+        <span v-if="isForAdultsOnly" class="text-purple-600 dark:text-purple-400 font-medium"> (+18 <span translate="no">作品</span>)</span>
         <h5 class="dark:text-gray-50 font-semibold">{{title}}</h5>
       </div>
     </div>
