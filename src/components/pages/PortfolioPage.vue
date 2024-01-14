@@ -14,7 +14,7 @@
         :imageUrl="project.imageUrl"
         :year="project.year"
         :title="project.title"
-        :adultsOnly="project.adultsOnly"
+        :isForAdultsOnly="project.isForAdultsOnly"
       />
     </div>
     <section-subtitle text="novels" japaneseText="小説" />
@@ -26,7 +26,7 @@
         :imageUrl="project.imageUrl"
         :year="project.year"
         :title="project.title"
-        :adultsOnly="project.adultsOnly"
+        :isForAdultsOnly="project.isForAdultsOnly"
       />
     </div>
   </div>
