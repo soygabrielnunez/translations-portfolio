@@ -8,7 +8,7 @@
     <img
       alt="Work's portrait image"
       :src="imageUrl"
-      class="h-auto md:h-96 w-full rounded-xl object-cover"
+      class="aspect-[3/4] rounded-xl object-cover"
     />
     <div class="p-2">
       <span class="text-purple-400 font-medium">{{year}}</span>
@@ -21,7 +21,7 @@
       <img
         alt="Work's portrait image"
         :src="imageUrl"
-        class="h-auto md:h-96 w-full rounded-xl object-cover"
+        class="aspect-[3/4] rounded-xl object-cover"
       />
       <div class="p-2">
         <span class="text-purple-400 font-medium">{{year}}</span>
