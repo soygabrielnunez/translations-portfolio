@@ -7,7 +7,7 @@
         src="/avatar.webp"
         class="rounded-full h-14 lg:h-20 w-14 lg:w-20"
       /></router-link>&nbsp;
-      <router-link to="/"><span>Julio<span class="text-purple-600"> Colmenares</span></span></router-link>
+      <router-link to="/"><span>Julio<span class="text-purple-600 dark:text-purple-400"> Colmenares</span></span></router-link>
     </div>
     <button
       @click="changeDarkMode"
