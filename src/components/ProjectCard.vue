@@ -7,7 +7,7 @@
   >
     <img
       alt="Work's portrait image"
-      :src="imageUrl"
+      :src="image"
       class="aspect-[3/4] rounded-xl object-cover"
     />
     <div class="p-2">
@@ -20,7 +20,7 @@
     <div class="transform-none lg:transform-gpu lg:duration-500 lg:ease-in-out lg:hover:scale-110">
       <img
         alt="Work's portrait image"
-        :src="imageUrl"
+        :src="image"
         class="aspect-[3/4] rounded-xl object-cover"
       />
       <div class="p-2">
@@ -34,7 +34,7 @@
 
 <script setup lang="ts">
 defineProps<{
-  imageUrl: string,
+  image: string,
   infoUrl?: string,
   year: number,
   title: string,
