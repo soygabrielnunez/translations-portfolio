@@ -3,79 +3,79 @@
         {
             "title": "KONOSUBA",
             "year": 2022,
-            "imageUrl": "/konosuba.jpeg",
+            "image": "/konosuba.webp",
             "infoUrl": "https://store.steampowered.com/app/2349140/KONOSUBA__Gods_Blessing_on_this_Wonderful_World_Love_For_These_Clothes_Of_Desire/",
-            "adultsOnly": false
+            "isForAdultsOnly": false
         },
         {
             "title": "Parquet",
             "year": 2021,
-            "imageUrl": "/parquet.jpeg",
+            "image": "/parquet.webp",
             "infoUrl": "https://store.steampowered.com/app/1662840/PARQUET/",
-            "adultsOnly": false
+            "isForAdultsOnly": false
         },
         {
             "title": "The Future Radio and the Artificial Pigeons",
             "year": 2021,
-            "imageUrl": "/the-future-radio-and-artificial-pigeons.jpg",
+            "image": "/the-future-radio-and-artificial-pigeons.webp",
             "infoUrl": "https://futureradio.nekonyansoft.com/",
-            "adultsOnly": false
+            "isForAdultsOnly": false
         },
         {
             "title": "Rikky Horne",
             "year": 2021,
-            "imageUrl": "/rikky-horne.jpeg",
+            "image": "/rikky-horne.webp",
             "infoUrl": "https://jastusa.com/world-s-horniest-housewife-rikky-horne/",
-            "adultsOnly": true
+            "isForAdultsOnly": true
         },
         {
             "title": "Eiyu＊Senki War Wonder",
             "year": 2021,
-            "imageUrl": "/eiyu-senki-war-wonder.jpeg",
+            "image": "/eiyu-senki-war-wonder.webp",
             "infoUrl": "https://www.johren.games/games/eiyusenkiwwx-en/",
-            "adultsOnly": true
+            "isForAdultsOnly": true
         },
         {
             "title": "Eiyu＊Senki Gold - A New Conquest",
             "year": 2021,
-            "imageUrl": "/eiyu-senki-gold.jpg",
+            "image": "/eiyu-senki-gold.webp",
             "infoUrl": "https://store.steampowered.com/app/1518430/EiyuSenki_Gold__A_New_Conquest/",
-            "adultsOnly": true
+            "isForAdultsOnly": true
         },
         {
             "title": "Daydream Cyanotype",
             "year": 2021,
-            "imageUrl": "/daydream-cyanotype.jpeg",
-            "adultsOnly": false
+            "image": "/daydream-cyanotype.webp",
+            "isForAdultsOnly": false
         },
         {
             "title": "Riddle Joker",
             "year": 2020,
-            "imageUrl": "/riddle-joker.jpeg",
+            "image": "/riddle-joker.webp",
             "infoUrl": "https://riddle.nekonyansoft.com/",
-            "adultsOnly": false
+            "isForAdultsOnly": false
         },
         {
             "title": "Onii Kiss",
             "year": 2019,
-            "imageUrl": "/onii-kiss.jpeg",
+            "image": "/onii-kiss.webp",
             "infoUrl": "https://jastusa.com/onii-kiss-onii-chan-where-s-my-kiss/",
-            "adultsOnly": false
+            "isForAdultsOnly": false
         },
         {
             "title": "Newton and the Apple Tree",
             "year": 2018,
-            "imageUrl": "/newton-and-the-apple-tree.jpg",
-            "adultsOnly": false
+            "image": "/newton-and-the-apple-tree.webp",
+            "isForAdultsOnly": false
         }
     ],
     "novels": [
         {
             "title": "Strongest Gamer",
             "year": 2018,
-            "imageUrl": "/strongest-gamer.jpeg",
+            "image": "/strongest-gamer.webp",
             "infoUrl": "https://www.amazon.com/dp/B07CGZZT1J/",
-            "adultsOnly": false
+            "isForAdultsOnly": false
         }
     ]
 }

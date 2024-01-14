@@ -4,13 +4,14 @@
     <div class="flex items-center">
       <router-link to="/"><img
         alt="Bango's avatar image"
-        src="/avatar.jpg"
+        src="/avatar.webp"
         class="rounded-full h-14 lg:h-20 w-14 lg:w-20"
       /></router-link>&nbsp;
       <router-link to="/"><span>Julio<span class="text-purple-400"> Colmenares</span></span></router-link>
     </div>
     <button
       @click="changeDarkMode"
+      aria-label="Dark mode toggle button"
     >
       <svg
         v-if="enableDarkMode"
