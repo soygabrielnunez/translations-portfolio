@@ -8,7 +8,7 @@
       I'm always open to new experiences and learning, for the art of translation is a never-ending road that I'm very glad to call my profession.
     </p>
     <p class="md:text-center md:text-xl dark:text-gray-50 mb-32 md:mb-20">
-      Feel free to <router-link to="/" class="text-purple-400 font-semibold underline">check my work</router-link>
+      Feel free to <router-link to="/" class="text-purple-600 font-semibold underline">check my work</router-link>
     </p>
   </div>
 </template>
