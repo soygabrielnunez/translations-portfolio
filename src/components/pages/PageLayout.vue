@@ -75,7 +75,7 @@
         />
       </a>
       by
-      <a href="https://github.com/soygabrielnunez/" target="_blank" class="font-bold cursor-pointer underline">
+      <a href="https://github.com/soygabrielnunez/" target="_blank" class="font-bold cursor-pointer underline" translate="no">
         soygabrielnunez
       </a>
     </div>
