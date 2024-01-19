@@ -75,8 +75,8 @@
         />
       </a>
       by
-      <a href="https://github.com/Gabrielnz/" target="_blank" class="font-bold cursor-pointer underline">
-        Gabrielnz
+      <a href="https://github.com/soygabrielnunez/" target="_blank" class="font-bold cursor-pointer underline">
+        soygabrielnunez
       </a>
     </div>
   </footer>
