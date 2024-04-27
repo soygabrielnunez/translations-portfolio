@@ -2,19 +2,19 @@
 <div class="grid justify-center app-container">
   <header class="p-6 md:p-8 dark:text-gray-50 text-3xl sm:text-5xl font-semibold flex items-center justify-between">
     <div class="flex items-center">
-      <router-link to="/"><img
-        alt="Bango's avatar image"
+      <nuxt-link to="/"><img
+        alt="Bango's avatar"
         src="/avatar.webp"
         class="rounded-full h-14 lg:h-20 w-14 lg:w-20"
-      /></router-link>&nbsp;
-      <router-link to="/"><span>Julio<span class="text-purple-600 dark:text-purple-400"> Colmenares</span></span></router-link>
+      /></nuxt-link>&nbsp;
+      <nuxt-link to="/"><span>Julio<span class="text-purple-600 dark:text-purple-400"> Colmenares</span></span></nuxt-link>
     </div>
     <button
       @click="changeDarkMode"
       aria-label="Dark mode toggle button"
     >
       <svg
-        v-if="enableDarkMode"
+        v-if="colorMode.preference === 'dark'"
         xmlns="http://www.w3.org/2000/svg"
         class="h-6 w-6 fill-current text-gray-900 dark:text-gray-100"
         viewBox="0 0 20 20" fill="currentColor"
@@ -33,11 +33,7 @@
     </button>
   </header>
   <main class="grid p-4 md:p-8 gap-10">
-    <router-view v-slot="{ Component }">
-        <transition name="fade">
-            <component :is="Component" />
-        </transition>
-    </router-view>
+    <slot />
   </main>
   <footer class="dark:text-gray-50 p-6 text-lg">
     <div>
@@ -84,19 +80,11 @@
 </template>
 
 <script setup lang="ts">
-import vueLogo from '../../assets/vue-logo.png'
-import { ref, watch } from 'vue'
+import vueLogo from '/vue-logo.png'
 
-const enableDarkMode = ref(false)
-const addDarkModeClass = () => document.documentElement.classList.add('dark')
-const removeDarkModeClass = () => document.documentElement.classList.remove('dark')
-
-watch(enableDarkMode, enable => {
-  enable ? addDarkModeClass() : removeDarkModeClass()
-})
-
+const colorMode = useColorMode()
 const changeDarkMode = () => {
-  enableDarkMode.value = !enableDarkMode.value
+  colorMode.preference = colorMode.preference === 'light' ? 'dark' : 'light'
 }
 </script>
 
