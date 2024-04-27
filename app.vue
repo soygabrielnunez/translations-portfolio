@@ -11,7 +11,7 @@ useSeoMeta({
 })
 useHead({
   htmlAttrs: {
-    lang: 'en'
+    lang: 'es'
   }
 })
 </script>
