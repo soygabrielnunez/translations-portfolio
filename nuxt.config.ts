@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
   colorMode: {
-    classSuffix: ''
+    classSuffix: '',
+    preference: 'light'
   }
 })
