@@ -7,7 +7,7 @@
 <script setup lang="ts">
 useSeoMeta({
   title: 'Bango Translations Portfolio',
-  description: 'Bango is a Japanese-English translator that works for JAST, Nekonyan and Solpress. Discover all of his work in this portfolio, from videogames to novels.'
+  description: 'Bango is a Japanese-English translator that works for JAST, Nekonyan and Solpress. Discover all of his work in this portfolio, from videogames to visual novels.'
 })
 useHead({
   htmlAttrs: {
