@@ -17,7 +17,7 @@
         :isForAdultsOnly="project.isForAdultsOnly"
       />
     </div>
-    <category text="novels" japaneseText="小説" />
+    <category text="visual novels" japaneseText="小説のビジュアル" />
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-16 p-1 md:p-8 justify-center justify-items-center">
       <project
         v-for="(project, index) in novels"
