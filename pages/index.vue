@@ -8,7 +8,7 @@
     <category text="video games" japaneseText="ビデオゲーム" />
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-16 p-1 md:p-8 justify-center justify-items-center">
       <project
-        v-for="(project, index) in videoGames"
+        v-for="(project, index) in sortedVideoGames"
         :key="index"
         :infoUrl="project.infoUrl"
         :image="project.image"
@@ -20,7 +20,7 @@
     <category text="visual novels" japaneseText="小説のビジュアル" />
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-16 p-1 md:p-8 justify-center justify-items-center">
       <project
-        v-for="(project, index) in novels"
+        v-for="(project, index) in sortedNovels"
         :key="index"
         :infoUrl="project.infoUrl"
         :image="project.image"
@@ -41,4 +41,6 @@ const currentYear = new Date().getFullYear()
 
 const yearsOfExperience = computed(() => currentYear - firstYearTranslating)
 const { videoGames, novels } = projects
+const sortedVideoGames = videoGames.sort((a, b) => b.year - a.year)
+const sortedNovels = novels.sort((a, b) => b.year - a.year)
 </script>
