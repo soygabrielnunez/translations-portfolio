@@ -76,6 +76,13 @@
             "image": "/strongest-gamer.webp",
             "infoUrl": "https://www.amazon.com/dp/B07CGZZT1J/",
             "isForAdultsOnly": false
+        },
+        {
+            "title": "Revue Starlight El Dorado",
+            "year": 2024,
+            "image": "/revue-starlight-el-dorado.webp",
+            "infoUrl": "https://revuestarlight.bushiroadgames.com/en/",
+            "isForAdultsOnly": false
         }
     ]
 }
