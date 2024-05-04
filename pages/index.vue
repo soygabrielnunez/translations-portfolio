@@ -37,13 +37,29 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import projects from '~/assets/projects.json'
+// import projects from '~/assets/projects.json'
 
 const firstYearTranslating = 2018
 const currentYear = new Date().getFullYear()
-
 const yearsOfExperience = computed(() => currentYear - firstYearTranslating)
-const { videoGames, visualNovels } = projects
+const { data } = await useFetch('/api/projects')
+const projects = data.value?.results.map(page => {
+  const { id, properties } = page as any
+  return {
+    id,
+    category: properties.category.select.name,
+    title: properties.title.title[0].plain_text,
+    year: properties.year.number,
+    isVisible: properties.isVisible.checkbox,
+    isForAdultsOnly: properties.isForAdultsOnly.checkbox,
+    image: properties.image.files[0].file.url,
+    infoUrl: properties.infoUrl.url
+  }
+
+}) || []
+// const { videoGames, visualNovels } = projects
+const videoGames = projects.filter((project) => project.category === 'videogame')
+const visualNovels = projects.filter((project) => project.category === 'novel')
 const visibleVideoGames = videoGames.filter((project) => project.isVisible)
 const visibleVisualNovels = visualNovels.filter((project) => project.isVisible)
 const sortedVideoGames = visibleVideoGames.sort((a, b) => b.year - a.year)
