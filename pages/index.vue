@@ -37,7 +37,6 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-// import projects from '~/assets/projects.json'
 
 const firstYearTranslating = 2018
 const currentYear = new Date().getFullYear()
@@ -55,9 +54,7 @@ const projects = data.value?.results.map(page => {
     image: properties.image.files[0].file.url,
     infoUrl: properties.infoUrl.url
   }
-
 }) || []
-// const { videoGames, visualNovels } = projects
 const videoGames = projects.filter((project) => project.category === 'videogame')
 const visualNovels = projects.filter((project) => project.category === 'novel')
 const visibleVideoGames = videoGames.filter((project) => project.isVisible)
