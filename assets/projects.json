@@ -77,6 +77,14 @@
             "image": "/newton-and-the-apple-tree.webp",
             "isForAdultsOnly": false,
             "isVisible": true
+        },
+        {
+            "title": "Sisters last day of summer",
+            "year": 2024,
+            "image": "/sisters-last-day-of-summer.webp",
+            "infoUrl": "https://store.steampowered.com/app/2781750/Sisters_Last_Day_of_Summer/",
+            "isForAdultsOnly": false,
+            "isVisible": true
         }
     ],
     "visualNovels": [
