@@ -6,8 +6,9 @@
     class="transform-none lg:transform-gpu lg:duration-500 lg:ease-in-out lg:hover:scale-110 cursor-pointer"
   >
     <img
-      alt="Work's portrait"
       :src="image"
+      alt="Work's portrait"
+      loading="lazy"
       class="aspect-[3/4] rounded-xl"
     />
     <div class="p-2">
@@ -19,8 +20,9 @@
   <template v-else>
     <div class="transform-none lg:transform-gpu lg:duration-500 lg:ease-in-out lg:hover:scale-110">
       <img
-        alt="Work's portrait"
         :src="image"
+        alt="Work's portrait"
+        loading="lazy"
         class="aspect-[3/4] rounded-xl"
       />
       <div class="p-2">
