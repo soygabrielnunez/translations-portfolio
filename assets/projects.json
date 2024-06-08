@@ -85,6 +85,14 @@
             "infoUrl": "https://store.steampowered.com/app/2781750/Sisters_Last_Day_of_Summer/",
             "isForAdultsOnly": false,
             "isVisible": true
+        },
+        {
+            "title": "NEKO-NIN exHeart SPIN!",
+            "year": 2024,
+            "image": "/nekonin-spin.webp",
+            "infoUrl": "https://store.steampowered.com/app/2995390/NEKONIN_exHeart_SPIN/",
+            "isForAdultsOnly": false,
+            "isVisible": true
         }
     ],
     "visualNovels": [
