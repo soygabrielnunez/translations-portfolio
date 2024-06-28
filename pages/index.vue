@@ -1,9 +1,9 @@
 <template>
   <div>
-    <page-title text="translations portfolio" japaneseText="翻訳ポートフォリオ" />
-    <p class="text-center dark:text-gray-50 md:text-xl"><span class="font-semibold">Hello! / <span translate="no" class="text-purple-600 dark:text-purple-400">こんにちは</span></span> I'm a Japanese-English translator that works for JAST, Nekonyan and Solpress, with {{ yearsOfExperience }} years of experience.
-    <br />
-    You can get to know more about me <nuxt-link to="/about"><span class="text-purple-600 dark:text-purple-400 font-semibold underline">by clicking here</span></nuxt-link>
+    <page-title text="Hello!" japaneseText="こんにちは" />
+    <p class="text-justify dark:text-gray-50 md:text-xl">
+      I'm a Japanese-English translator that works for JAST, Nekonyan and Solpress, with {{ yearsOfExperience }} years of experience. You can check out my work below.
+    Also, you can get to know more about me <nuxt-link to="/about"><span class="text-purple-600 dark:text-purple-400 font-semibold underline">by clicking here</span></nuxt-link>
     </p>
     <category name="video games" japaneseName="ビデオゲーム">
       <project
