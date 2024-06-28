@@ -30,8 +30,6 @@ const { videoGames, visualNovels } = projects
 const firstYearTranslating = 2018
 const currentYear = new Date().getFullYear()
 const yearsOfExperience = computed(() => currentYear - firstYearTranslating)
-const visibleVideoGames = videoGames.filter((project) => project.isVisible)
-const visibleVisualNovels = visualNovels.filter((project) => project.isVisible)
-const sortedVideoGames = visibleVideoGames.sort((a, b) => b.year - a.year)
-const sortedVisualNovels = visibleVisualNovels.sort((a, b) => b.year - a.year)
+const sortedVideoGames = videoGames.filter(project => project.isVisible).sort((a, b) => b.year - a.year)
+const sortedVisualNovels = visualNovels.filter(project => project.isVisible).sort((a, b) => b.year - a.year)
 </script>
