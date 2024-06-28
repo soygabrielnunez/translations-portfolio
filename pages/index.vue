@@ -5,10 +5,7 @@
     <br />
     You can get to know more about me <nuxt-link to="/about"><span class="text-purple-600 dark:text-purple-400 font-semibold underline">by clicking here</span></nuxt-link>
     </p>
-    <category text="video games" japaneseText="ビデオゲーム" />
-    <div
-      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-16 p-1 md:p-8 justify-center justify-items-center"
-    >
+    <category text="video games" japaneseText="ビデオゲーム">
       <project
         v-for="(project, index) in sortedVideoGames"
         :key="index"
@@ -17,11 +14,9 @@
         :year="project.year"
         :title="project.title"
         :isForAdultsOnly="project.isForAdultsOnly"
-        
       />
-    </div>
-    <category text="visual novels" japaneseText="小説のビジュアル" />
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-16 p-1 md:p-8 justify-center justify-items-center">
+    </category>
+    <category text="visual novels" japaneseText="小説のビジュアル">
       <project
         v-for="(project, index) in sortedVisualNovels"
         :key="index"
@@ -31,7 +26,7 @@
         :title="project.title"
         :isForAdultsOnly="project.isForAdultsOnly"
       />
-    </div>
+    </category>
   </div>
 </template>
 
