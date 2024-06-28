@@ -24,8 +24,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import projects from '~/assets/projects.json'
-const { videoGames, visualNovels } = projects
+import { videoGames, visualNovels } from '~/assets/projects.json'
 
 const firstYearTranslating = 2018
 const currentYear = new Date().getFullYear()
