@@ -5,14 +5,14 @@
     <br />
     You can get to know more about me <nuxt-link to="/about"><span class="text-purple-600 dark:text-purple-400 font-semibold underline">by clicking here</span></nuxt-link>
     </p>
-    <category text="video games" japaneseText="ビデオゲーム">
+    <category name="video games" japaneseName="ビデオゲーム">
       <project
         v-for="(project, index) in sortedVideoGames"
         :key="index"
         v-bind="project"
       />
     </category>
-    <category text="visual novels" japaneseText="小説のビジュアル">
+    <category name="visual novels" japaneseName="小説のビジュアル">
       <project
         v-for="(project, index) in sortedVisualNovels"
         :key="index"
