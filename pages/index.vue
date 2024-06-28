@@ -9,22 +9,14 @@
       <project
         v-for="(project, index) in sortedVideoGames"
         :key="index"
-        :infoUrl="project.infoUrl"
-        :image="project.image"
-        :year="project.year"
-        :title="project.title"
-        :isForAdultsOnly="project.isForAdultsOnly"
+        v-bind="project"
       />
     </category>
     <category text="visual novels" japaneseText="小説のビジュアル">
       <project
         v-for="(project, index) in sortedVisualNovels"
         :key="index"
-        :infoUrl="project.infoUrl"
-        :image="project.image"
-        :year="project.year"
-        :title="project.title"
-        :isForAdultsOnly="project.isForAdultsOnly"
+        v-bind="project"
       />
     </category>
   </div>
