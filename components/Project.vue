@@ -36,10 +36,10 @@
 
 <script setup lang="ts">
 defineProps<{
+  title: string,
+  year: number,
   image: string,
   infoUrl?: string,
-  year: number,
-  title: string,
   isForAdultsOnly?: boolean
 }>()
 </script>
