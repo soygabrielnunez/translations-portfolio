@@ -5,20 +5,20 @@
       I'm a Japanese-English translator that works for JAST, Nekonyan and Solpress, with more than {{ yearsOfExperience }} years of experience. You can check out my work below.
     Also, you can get to know more about me <nuxt-link to="/about"><span class="text-purple-600 dark:text-purple-400 font-semibold underline">by clicking here</span></nuxt-link>
     </p>
-    <category name="video games" japaneseName="ビデオゲーム">
-      <project
+    <project-category name="video games" japaneseName="ビデオゲーム">
+      <project-card
         v-for="(project, index) in sortedVideoGames"
         :key="index"
         v-bind="project"
       />
-    </category>
-    <category name="visual novels" japaneseName="小説のビジュアル">
-      <project
+    </project-category>
+    <project-category name="visual novels" japaneseName="小説のビジュアル">
+      <project-card
         v-for="(project, index) in sortedVisualNovels"
         :key="index"
         v-bind="project"
       />
-    </category>
+    </project-category>
   </div>
 </template>
 
