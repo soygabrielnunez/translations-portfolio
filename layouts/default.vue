@@ -1,6 +1,6 @@
 <template>
 <div class="grid justify-center app-container">
-  <header class="p-6 md:p-8 dark:text-gray-50 text-3xl sm:text-5xl font-semibold flex items-center justify-between">
+  <header class="p-6 md:p-8 text-color text-3xl sm:text-5xl font-semibold flex items-center justify-between">
     <div class="flex items-center">
       <nuxt-link to="/"><img
         alt="Bango's avatar"
@@ -35,7 +35,7 @@
   <main class="grid p-4 md:p-8 gap-10">
     <slot />
   </main>
-  <footer class="dark:text-gray-50 p-6 text-lg">
+  <footer class="text-color p-6 text-lg">
     <div>
       <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="cursor-pointer">
         <svg class="h-4 lg:h-6 inline fill-current twitter-logo-color" version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

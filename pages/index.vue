@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Hello!<span translate="no" class="japanese-text text-accent">こんにちは</span></h1>
-    <p class="text-justify dark:text-gray-50 md:text-xl">
+    <p class="text-justify text-color md:text-xl">
       I'm a Japanese-English translator that works for JAST, Nekonyan and Solpress, with more than {{ yearsOfExperience }} years of experience. You can check out my work below.
     Also, you can get to know more about me <nuxt-link to="/about"><span class="text-accent font-semibold underline">by clicking here</span></nuxt-link>
     </p>

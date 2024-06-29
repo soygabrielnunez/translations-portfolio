@@ -9,6 +9,9 @@
 }
 
 @layer utilities {
+  .text-color {
+    @apply dark:text-gray-50;
+  }
   .text-accent {
     @apply text-purple-600 dark:text-purple-400;
   }
