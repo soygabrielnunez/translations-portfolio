@@ -13,8 +13,8 @@
     />
     <div class="p-2 flex flex-wrap gap-2">
       <h3 class="dark:text-gray-50 font-semibold" translate="no">{{title}}</h3>
-      <span v-if="isForAdultsOnly" class="text-purple-600 dark:text-purple-400 font-medium"> (+18 <span translate="no">作品</span>)</span>
-      <span class="text-purple-600 dark:text-purple-400 font-medium">{{year}}</span>
+      <span v-if="isForAdultsOnly" class="text-accent font-medium"> (+18 <span translate="no">作品</span>)</span>
+      <span class="text-accent font-medium">{{year}}</span>
     </div>
   </a>
   <template v-else>
@@ -27,8 +27,8 @@
       />
       <div class="p-2 flex flex-wrap gap-2">
         <h3 class="dark:text-gray-50 font-semibold" translate="no">{{title}}</h3>
-        <span v-if="isForAdultsOnly" class="text-purple-600 dark:text-purple-400 font-medium"> (+18 <span translate="no">作品</span>)</span>
-        <span class="text-purple-600 dark:text-purple-400 font-medium">{{year}}</span>
+        <span v-if="isForAdultsOnly" class="text-accent font-medium"> (+18 <span translate="no">作品</span>)</span>
+        <span class="text-accent font-medium">{{year}}</span>
       </div>
     </div>
   </template>
