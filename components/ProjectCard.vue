@@ -35,11 +35,12 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
+export type ProjectCardProps = {
   title: string,
   year: number,
   image: string,
   infoUrl?: string,
   isForAdultsOnly?: boolean
-}>()
+}
+defineProps<ProjectCardProps>()
 </script>
