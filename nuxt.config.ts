@@ -6,11 +6,8 @@ export default defineNuxtConfig({
     classSuffix: '',
     preference: 'light'
   },
-  app: {
-    head: {
-      link: [
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap' }
-      ]
-    }
-  }
+  css: [
+    '~/assets/css/fonts.css',
+    '~/assets/css/tailwind.css'
+  ]
 })
