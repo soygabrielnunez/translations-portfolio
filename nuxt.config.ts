@@ -5,9 +5,5 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
     preference: 'light'
-  },
-  css: [
-    '~/assets/css/fonts.css',
-    '~/assets/css/tailwind.css'
-  ]
+  }
 })

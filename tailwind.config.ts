@@ -5,8 +5,7 @@ export default <Partial<Config>>{
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Helvetica', 'sans-serif'],
-        japanese: ['Noto Sans JP', 'sans-serif'],
+        sans: ['Helvetica', 'sans-serif']
       },
     },
   },
