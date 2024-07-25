@@ -7,7 +7,7 @@
         src="/avatar.webp"
         class="rounded-full h-14 lg:h-20 w-14 lg:w-20"
       /></nuxt-link>&nbsp;
-      <nuxt-link to="/"><span class="ml-1">Julio<span class="text-accent ml-2">Colmenares</span></span></nuxt-link>
+      <nuxt-link to="/"><span class="ml-1">Julio Colmenares</span></nuxt-link>
     </div>
     <button
       @click="changeDarkMode"
