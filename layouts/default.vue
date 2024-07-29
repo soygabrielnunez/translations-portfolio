@@ -1,13 +1,13 @@
 <template>
 <div class="grid justify-center app-container">
-  <header class="p-6 md:p-8 text-color text-3xl sm:text-5xl font-semibold flex items-center justify-between">
+  <header class="p-6 md:p-8 text-color text-3xl sm:text-5xl flex items-center justify-between">
     <div class="flex items-center">
       <nuxt-link to="/"><img
         alt="Bango's avatar"
         src="/avatar.webp"
         class="rounded-full h-14 lg:h-20 w-14 lg:w-20"
       /></nuxt-link>&nbsp;
-      <nuxt-link to="/"><span class="ml-1">Julio Colmenares</span></nuxt-link>
+      <nuxt-link to="/"><span class="ml-1 text-accent">Julio Colmenares</span></nuxt-link>
     </div>
     <button
       @click="changeDarkMode"
