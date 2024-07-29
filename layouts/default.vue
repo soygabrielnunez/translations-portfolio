@@ -1,6 +1,6 @@
 <template>
 <div class="grid justify-center app-container">
-  <header class="p-6 md:p-8 text-color text-3xl sm:text-5xl flex items-center justify-between">
+  <header class="p-6 md:p-8 text-color text-2xl sm:text-4xl flex items-center justify-between">
     <div class="flex items-center">
       <nuxt-link to="/"><img
         alt="Bango's avatar"

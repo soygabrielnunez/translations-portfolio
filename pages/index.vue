@@ -3,7 +3,7 @@
     <h1>Hello!<span translate="no" class="text-accent ml-4">こんにちは！</span></h1>
     <p class="text-justify text-color md:text-xl">
       My name is Julio Colmenares, I am a Japanese-English translator that works for JAST, Nekonyan and Solpress, with more than {{ yearsOfExperience }} years of experience. You can check out my work below.
-    Also, you can get to know more about me <nuxt-link to="/about"><span class="text-accent font-semibold underline">by clicking here</span></nuxt-link>
+    <nuxt-link to="/about"><span class="text-accent font-bold">Click here</span></nuxt-link> to get to know more about me.
     </p>
     <project-category
       name="video games"
