@@ -1,6 +1,6 @@
 <template>
 <div class="sticky top-0 p-2 md:p-8 z-10 bg-gray-100 flex gap-4">
-  <h2 class="text-gray-500 text-xl sm:text-3xl uppercase">{{name}}<span translate="no" class="text-accent ml-4">{{japaneseName}}</span></h2>
+  <h2 class="text-secondary text-xl sm:text-3xl uppercase">{{name}}<span translate="no" class="text-primary ml-4">{{japaneseName}}</span></h2>
 </div>
 <div
   class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-16 p-1 md:p-8 justify-center justify-items-center"

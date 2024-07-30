@@ -9,8 +9,8 @@
     />
     <div class="p-2 flex flex-wrap gap-2">
       <h3 class="text-color uppercase font-semibold" translate="no">{{title}}</h3>
-      <span class="text-gray-500 font-medium">{{year}}</span>
-      <span v-if="isForAdultsOnly" class="text-gray-400 font-medium"> +18</span>
+      <span class="text-secondary font-medium">{{year}}</span>
+      <span v-if="isForAdultsOnly" class="text-terciary font-medium"> +18</span>
     </div>
   </div>
 </template>
