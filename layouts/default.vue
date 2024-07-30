@@ -1,6 +1,6 @@
 <template>
 <div class="grid justify-center app-container">
-  <header class="p-6 md:p-8 text-color text-2xl sm:text-4xl flex items-center justify-between">
+  <header class="p-6 md:p-8 text-2xl sm:text-4xl flex items-center justify-between">
     <div class="flex items-center">
       <nuxt-link to="/"><img
         alt="Bango's avatar"
@@ -34,7 +34,7 @@
       <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 lg:h-6 lg:w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
       </svg>&nbsp;
-      <span translate="no">chuchunmaru@gmail.com</span>
+      <a href="mailto:chuchunmaru@gmail.com" class="font-bold cursor-pointer"><span translate="no">chuchunmaru@gmail.com</span></a>
     </div>
     <div>
       Made with 
