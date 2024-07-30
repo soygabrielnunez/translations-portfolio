@@ -1,6 +1,6 @@
 <template>
   <div class="px-6">
-    <h1>About me<span translate="no" class="text-accent ml-4">私について</span></h1>
+    <h1 class="text-gray-500">About me<span translate="no" class="text-accent ml-4">私について</span></h1>
     <p class="text-justify md:text-xl text-color mb-32 md:mb-20">
       My name is J. "Bango" Colmenares, and I'm a <span class="text-accent decoration-2 underline-offset-2">JP>ENG localizer</span> that works mainly in the video game/visual novel space, though I do have experience in with light novel and manga as well.
       Bringing stories over and helping audiences experience works of fiction with the same intensity and passion as their original audiences is my vocation in life, and I'm always looking

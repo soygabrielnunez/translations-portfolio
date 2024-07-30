@@ -7,16 +7,16 @@
         src="/avatar.webp"
         class="rounded-full h-14 lg:h-20 w-14 lg:w-20"
       /></nuxt-link>&nbsp;
-      <nuxt-link to="/"><span class="ml-1 text-accent">Julio Colmenares</span></nuxt-link>
+      <nuxt-link to="/"><span class="ml-1 text-accent">JULIO COLMENARES</span></nuxt-link>
     </div>
   </header>
   <main class="grid p-4 md:p-8 gap-10">
     <slot />
   </main>
-  <footer class="text-color p-6 text-lg text-center mt-10 flex flex-col lg:flex-row justify-center gap-4 lg:gap-6">
+  <footer class="text-gray-400 p-6 text-lg text-center mt-10 flex flex-col lg:flex-row justify-center gap-4 lg:gap-6">
     <div>
       <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="cursor-pointer">
-        <svg class="h-4 lg:h-6 inline fill-current text-gray-900" version="1.1" id="twitter-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg class="h-4 lg:h-6 inline fill-current text-gray-500" version="1.1" id="twitter-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 248 204" style="enable-background:new 0 0 248 204;" xml:space="preserve">
           <g id="Logo_1_">
             <path id="white_background" class="st0" d="M221.95,51.29c0.15,2.17,0.15,4.34,0.15,6.53c0,66.73-50.8,143.69-143.69,143.69v-0.04
@@ -28,22 +28,22 @@
           </g>
         </svg>
       </a>&nbsp;
-      <span class="hidden lg:inline">Follow me: </span><a href="https://twitter.com/Bango_the_Go/" target="_blank" class="cursor-pointer">@bango_the_go</a>
+      <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="cursor-pointer font-bold">@bango_the_go</a>
     </div>
     <div>
       <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 lg:h-6 lg:w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
       </svg>&nbsp;
-      <span class="hidden lg:inline">Email me: </span><span translate="no">chuchunmaru@gmail.com</span>
+      <span translate="no">chuchunmaru@gmail.com</span>
     </div>
     <div>
       Made with 
-      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1 h-5 w-5 fill-current text-gray-900 inline" viewBox="0 0 20 20" fill="currentColor">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1 h-5 w-5 fill-current text-gray-500 inline" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
       </svg>
       by
-      <a href="https://github.com/soygabrielnunez/" target="_blank" class="font-bold cursor-pointer underline" translate="no">
-        soygabrielnunez
+      <a href="https://github.com/soygabrielnunez/" target="_blank" class="font-bold cursor-pointer" translate="no">
+        @soygabrielnunez
       </a>
     </div>
   </footer>

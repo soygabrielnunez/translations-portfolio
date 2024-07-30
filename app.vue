@@ -18,6 +18,6 @@ useHead({
 
 <style>
 body {
-  @apply bg-gray-100 duration-500 ease-in-out;
+  @apply bg-gray-100;
 }
 </style>
