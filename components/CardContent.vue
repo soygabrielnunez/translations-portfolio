@@ -8,7 +8,7 @@
       class="aspect-[3/4] rounded-xl w-full"
     />
     <div class="p-2 flex flex-wrap gap-2">
-      <span class="uppercase font-bold text-primary" translate="no">{{title}}</span>
+      <span class="uppercase font-bold" translate="no">{{title}}</span>
       <span class="text-secondary">{{year}}</span>
       <span v-if="isForAdultsOnly" class="text-terciary"> +18</span>
     </div>

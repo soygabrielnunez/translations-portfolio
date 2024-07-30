@@ -8,7 +8,7 @@
       I'm always open to new experiences and learning, for the art of translation is a never-ending road that I'm very glad to call my profession.
     </p>
     <p class="md:text-center md:text-xl mb-32 md:mb-20">
-      <nuxt-link to="/" class="text-secondary font-bold">Click here</nuxt-link> to check my work.
+      <nuxt-link to="/" class="text-primary font-bold">Click here</nuxt-link> to check my work.
     </p>
   </div>
 </template>
