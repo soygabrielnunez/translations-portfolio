@@ -8,9 +8,9 @@
       class="aspect-[3/4] rounded-xl w-full"
     />
     <div class="p-2 flex flex-wrap gap-2">
-      <h3 class="text-color uppercase font-semibold" translate="no">{{title}}</h3>
-      <span class="text-secondary font-medium">{{year}}</span>
-      <span v-if="isForAdultsOnly" class="text-terciary font-medium"> +18</span>
+      <span class="uppercase font-bold text-primary" translate="no">{{title}}</span>
+      <span class="text-secondary">{{year}}</span>
+      <span v-if="isForAdultsOnly" class="text-terciary"> +18</span>
     </div>
   </div>
 </template>
