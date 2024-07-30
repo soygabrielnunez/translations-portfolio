@@ -9,28 +9,6 @@
       /></nuxt-link>&nbsp;
       <nuxt-link to="/"><span class="ml-1 text-accent">Julio Colmenares</span></nuxt-link>
     </div>
-    <button
-      @click="changeDarkMode"
-      aria-label="Dark mode toggle button"
-    >
-      <svg
-        v-if="colorMode.preference === 'dark'"
-        xmlns="http://www.w3.org/2000/svg"
-        class="h-6 w-6 fill-current text-gray-900 dark:text-gray-100"
-        viewBox="0 0 20 20" fill="currentColor"
-      >
-        <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd" />
-      </svg>
-      <svg
-        v-else
-        xmlns="http://www.w3.org/2000/svg"
-        class="h-6 w-6 fill-current text-gray-900 dark:text-gray-100"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-      >
-        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-      </svg>
-    </button>
   </header>
   <main class="grid p-4 md:p-8 gap-10">
     <slot />
@@ -38,7 +16,7 @@
   <footer class="text-color p-6 text-lg text-center mt-10 flex flex-col lg:flex-row justify-center gap-4 lg:gap-6">
     <div>
       <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="cursor-pointer">
-        <svg class="h-4 lg:h-6 inline fill-current text-gray-900 dark:text-gray-100" version="1.1" id="twitter-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg class="h-4 lg:h-6 inline fill-current text-gray-900" version="1.1" id="twitter-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 248 204" style="enable-background:new 0 0 248 204;" xml:space="preserve">
           <g id="Logo_1_">
             <path id="white_background" class="st0" d="M221.95,51.29c0.15,2.17,0.15,4.34,0.15,6.53c0,66.73-50.8,143.69-143.69,143.69v-0.04
@@ -60,7 +38,7 @@
     </div>
     <div>
       Made with 
-      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1 h-5 w-5 fill-current text-gray-900 dark:text-gray-100 inline" viewBox="0 0 20 20" fill="currentColor">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1 h-5 w-5 fill-current text-gray-900 inline" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
       </svg>
       by
@@ -71,13 +49,6 @@
   </footer>
 </div>
 </template>
-
-<script setup lang="ts">
-const colorMode = useColorMode()
-const changeDarkMode = () => {
-  colorMode.preference = colorMode.preference === 'light' ? 'dark' : 'light'
-}
-</script>
 
 <style scoped>
 .app-container {

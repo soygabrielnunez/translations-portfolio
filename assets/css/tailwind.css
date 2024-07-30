@@ -4,15 +4,12 @@
 
 @layer base {
   h1 {
-    @apply text-3xl sm:text-5xl mb-8 text-center dark:text-gray-50;
+    @apply text-3xl sm:text-5xl mb-8 text-center;
   }
 }
 
 @layer utilities {
-  .text-color {
-    @apply dark:text-gray-50;
-  }
   .text-accent {
-    @apply text-sky-600 dark:text-sky-400;
+    @apply text-sky-600;
   }
 }
