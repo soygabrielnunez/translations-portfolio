@@ -7,10 +7,10 @@
       loading="lazy"
       class="aspect-[3/4] rounded-xl w-full"
     />
-    <div class="p-2 flex flex-wrap gap-2">
+    <div class="p-2 flex flex-wrap text-sm">
       <span class="uppercase font-bold" translate="no">{{title}}</span>
-      <span class="text-secondary">{{year}}</span>
-      <span v-if="isForAdultsOnly" class="text-tertiary"> +18</span>
+      <span class="text-secondary ml-2">{{year}}</span>
+      <span v-if="isForAdultsOnly" class="text-tertiary ml-1">+18</span>
     </div>
   </div>
 </template>
