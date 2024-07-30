@@ -13,7 +13,7 @@
   <main class="grid p-4 md:p-8 gap-10">
     <slot />
   </main>
-  <footer class="text-terciary p-6 text-lg text-center mt-10 flex flex-col lg:flex-row justify-center gap-4 lg:gap-6">
+  <footer class="text-tertiary p-6 text-lg text-center mt-10 flex flex-col lg:flex-row justify-center gap-4 lg:gap-6">
     <div>
       <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="cursor-pointer">
         <svg class="h-4 lg:h-6 inline fill-current text-secondary" version="1.1" id="twitter-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

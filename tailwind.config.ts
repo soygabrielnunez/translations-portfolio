@@ -7,7 +7,7 @@ export default <Partial<Config>>{
       colors: {
         primary: colors.sky[600],
         secondary: colors.gray[500],
-        terciary: colors.gray[400],
+        tertiary: colors.gray[400],
       },
       fontFamily: {
         sans: ['Helvetica', 'sans-serif']
