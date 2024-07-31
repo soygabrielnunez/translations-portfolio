@@ -1,9 +1,9 @@
 <template>
     <div class="h-screen w-screen flex justify-center flex-col text-center">
-      <h1 translate="no" class="text-3xl sm:text-5xl text-red-600 font-bold tracking-widest">おっとっと</h1>
+      <h1 class="text-3xl sm:text-5xl text-red-600">Oops<span translate="no" class="text-secondary ml-4">おっとっと</span></h1>
       <br />
       <br />
-      <p class="text-red-500 md:text-xl">Oops, we couldn't find what you are looking for :( what if you <nuxt-link to="/" class="font-bold">go back home?</nuxt-link></p>
+      <p class="md:text-xl">We couldn't find what you are looking for :( <nuxt-link to="/" class="font-bold">click here</nuxt-link> to go back home.</p>
     </div>
 </template>
 <script setup lang="ts">
