@@ -16,7 +16,7 @@
   <footer class="text-tertiary p-6 text-lg text-center mt-10 flex flex-col lg:flex-row justify-center gap-4 lg:gap-6">
     <div>
       <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="cursor-pointer">
-        <svg class="h-4 lg:h-5 inline fill-current text-secondary" version="1.1" id="twitter-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg class="h-4 lg:h-5 inline fill-current" version="1.1" id="twitter-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 248 204" style="enable-background:new 0 0 248 204;" xml:space="preserve">
           <g id="Logo_1_">
             <path id="white_background" class="st0" d="M221.95,51.29c0.15,2.17,0.15,4.34,0.15,6.53c0,66.73-50.8,143.69-143.69,143.69v-0.04
@@ -38,7 +38,7 @@
     </div>
     <div>
       Made with 
-      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1 h-5 w-5 fill-current text-secondary inline" viewBox="0 0 20 20" fill="currentColor">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1 h-5 w-5 fill-current inline" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
       </svg>
       by
