@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="text-primary text-xl sm:text-3xl">MY WORK<span translate="no" class="text-secondary ml-4">私の仕事</span></h1>
-    <p class="text-justify md:text-xl">
+    <p class="text-justify md:text-xl py-8 md:py-12 p-2 md:p-8">
       My name is Julio Colmenares, I am a Japanese-English translator that works for JAST, Nekonyan and Solpress, with more than {{ yearsOfExperience }} years of experience. You can check out my work below.
     <nuxt-link to="/about"><span class="text-primary font-bold">Click here</span></nuxt-link> to get to know more about me.
     </p>
