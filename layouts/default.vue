@@ -28,13 +28,13 @@
           </g>
         </svg>
       </a>&nbsp;
-      <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="cursor-pointer font-bold">@bango_the_go</a>
+      <a href="https://twitter.com/Bango_the_Go/" target="_blank" class="text-primary cursor-pointer font-bold">@bango_the_go</a>
     </div>
     <div>
       <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 lg:h-6 lg:w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
       </svg>&nbsp;
-      <a href="mailto:chuchunmaru@gmail.com" class="font-bold cursor-pointer"><span translate="no">chuchunmaru@gmail.com</span></a>
+      <a href="mailto:chuchunmaru@gmail.com" class="text-primary font-bold cursor-pointer"><span translate="no">chuchunmaru@gmail.com</span></a>
     </div>
     <div>
       Made with 
@@ -42,7 +42,7 @@
         <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
       </svg>
       by
-      <a href="https://github.com/soygabrielnunez/" target="_blank" class="font-bold cursor-pointer" translate="no">
+      <a href="https://github.com/soygabrielnunez/" target="_blank" class="text-primary font-bold cursor-pointer" translate="no">
         @soygabrielnunez
       </a>
     </div>
