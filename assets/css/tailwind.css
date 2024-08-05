@@ -4,6 +4,14 @@
 
 @layer base {
   h1 {
-    @apply mb-4 text-center;
+    @apply mb-5 text-center text-xl sm:text-3xl;
   }
+
+  p {
+    @apply text-secondary md:text-xl p-2 md:p-12 text-justify;
+  }
+}
+
+.japanese-text {
+  @apply text-secondary ml-3;
 }
